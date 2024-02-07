@@ -1,0 +1,21 @@
+@import "../../../App.css";
+
+.cta {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.ctaBox {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonBox {
+  display: flex;
+  gap: 15px;
+  align-items: end;
+}

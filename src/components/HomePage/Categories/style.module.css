@@ -1,0 +1,15 @@
+@import "../../../App.css";
+
+.box {
+  display: flex;
+  justify-content: center;
+  padding-right: 0.4rem;
+  padding-left: 2.2rem;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  height: 50px;
+  width: 100%;
+}

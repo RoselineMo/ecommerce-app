@@ -1,0 +1,153 @@
+/* Photos from <a href="https://www.shopify.com/stock-photos/@shopifyphotos>Burst</a> , <a>https://www.amazon.com</a> , <a>https://www.canva.com</a>*/
+
+/* @import url(https://db.onlinewebfonts.com/c/45f27e739d8eb468f82233e4d18c3a50?family=Geograph+Medium);
+
+@import url(https://db.onlinewebfonts.com/c/e0238444d08a1891468ef9180d335a86?family=Geograph);
+
+@import url(https://db.onlinewebfonts.com/c/62e72053b9d26a3646185ba5e4508df9?family=Geograph+Thin);
+
+@import url(https://db.onlinewebfonts.com/c/f5faaffc53d2cc3a9ae792b21602a30b?family=Geograph+Edit); */
+
+@import url(./assets/fonts/fonts.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Geograph Medium", "sans-serif";
+  letter-spacing: 1px;
+  color: #212a2f;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a {
+  cursor: pointer;
+  display: inline-block;
+}
+
+button {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-family: inherit;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid currentColor;
+}
+
+/* helper classes */
+.heading_primary {
+  font-size: 3rem;
+  margin-top: 5rem;
+}
+
+.heading_primary_left {
+  font-size: 3rem;
+  transform: translateX(-487px);
+}
+
+.heading_primary_left2 {
+  font-size: 3rem;
+  transform: translateX(60px);
+  margin-bottom: 5rem;
+}
+
+.heading_primary_right {
+  font-size: 3rem;
+  margin-bottom: 0;
+  transform: translateX(487px);
+}
+
+.heading_secondary {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.sub_heading {
+  font-size: 1.6rem;
+  font-family: "Geograph", "sans-serif";
+  margin-top: 0;
+}
+
+.container_col {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4.7rem;
+}
+
+.container_row {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* reusable grids */
+.grid {
+  display: grid;
+  height: 45rem;
+  padding: 2.8rem 4.2rem 2.8rem;
+}
+
+.gridCols2 {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gridCols3 {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gridCols4 {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* reusable box shadow */
+.boxShadow {
+  /* box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.75); */
+  box-shadow: rgba(0, 0, 0, 0.09) 0 0.2rem 2.4rem 0;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+/* reusable link */
+.link:link,
+.link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #212a2f;
+}
+
+.link:hover,
+.link:active {
+  color: #546a7b;
+  text-decoration: underline;
+}

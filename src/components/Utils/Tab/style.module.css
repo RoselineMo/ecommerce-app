@@ -1,0 +1,16 @@
+@import "../../../App.css";
+
+.tab {
+  width: 185px;
+  height: 30px;
+  padding: 15px 10px;
+  color: currentColor;
+  background-color: inherit;
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tab:hover {
+  box-shadow: rgba(0, 0, 0, 0.09) 0 0.2rem 2.4rem 0;
+}

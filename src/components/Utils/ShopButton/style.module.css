@@ -1,0 +1,12 @@
+@import "../../../App.css";
+
+.button {
+  background-color: #fff;
+  width: 165px;
+  height: 50px;
+}
+
+.button:hover {
+  background-color: #212a2f;
+  color: #fff;
+}

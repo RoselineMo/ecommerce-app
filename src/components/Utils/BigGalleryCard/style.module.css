@@ -1,0 +1,11 @@
+@import "../../../App.css";
+
+.card {
+  width: 450px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.image {
+  height: 100%;
+}

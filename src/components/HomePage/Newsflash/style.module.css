@@ -1,0 +1,19 @@
+@import "../../../App.css";
+
+.news {
+  background-color: #546a7b;
+  font-size: 1.3rem;
+  height: 4rem;
+  color: #fff;
+}
+
+.news a {
+  text-decoration: underline;
+  padding: 0;
+}
+
+.linksBox {
+  display: flex;
+  gap: 0.5rem;
+  padding-left: 0.5rem;
+}

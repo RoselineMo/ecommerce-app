@@ -1,0 +1,22 @@
+.cart {
+  position: relative;
+}
+
+.icon {
+  font-size: 28px;
+}
+
+.count {
+  position: absolute;
+  top: -4px;
+  left: 6px;
+  z-index: 1;
+  font-size: 12px;
+  border-radius: 70%;
+  width: 15px;
+  height: 15.5px;
+  text-align: center;
+  color: #000;
+  background: #fff;
+  font-weight: 700;
+}
